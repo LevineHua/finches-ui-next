@@ -1,0 +1,15 @@
+{
+  "name": "finches-ui-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@finches-ui-next/vue-components": "workspace:*"
+  },
+  "devDependencies": {
+    "vue": "^3.2.41"
+  }
+}

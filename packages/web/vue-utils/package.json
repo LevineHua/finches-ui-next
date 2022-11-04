@@ -1,0 +1,8 @@
+{
+  "name": "@finches-ui-next/vue-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "author": "",
+  "license": "ISC"
+}

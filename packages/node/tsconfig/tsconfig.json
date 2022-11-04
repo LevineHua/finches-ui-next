@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "allowJs": false,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "types": [],
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+
+    "outDir": "dist",
+    "baseUrl": "../../..",
+    "paths": {
+      "finches-ui-next": ["packages/web/finches-ui/src/index"],
+      "@finches-ui-next/build/config": ["packages/node/build/src/config.ts"],
+      "@finches-ui-next/*": ["packages/web/*/src", "packages/node/*/src"],
+      "@finches-ui-next/locale/lang/*": ["packages/web/locale/src/lang/*.ts"]
+    }
+  }
+}
