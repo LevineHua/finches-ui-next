@@ -3,11 +3,10 @@
  * @Author: Levine
  * @Date: 2022-11-03 17:45:18
  * @LastEditors: Levine
- * @LastEditTime: 2022-11-03 17:46:54
+ * @LastEditTime: 2022-11-04 11:25:03
  * @FilePath: /finches-ui-next/packages/web/vue-utils/src/install.ts
  */
-import type { App } from 'vue'
-import type { SFCInstallWithContext, SFCWithInstall } from './typescript'
+import type { SFCWithInstall } from './typescript'
 
 export const withInstall = <T, E extends Record<string, any>>(
   main: T,
